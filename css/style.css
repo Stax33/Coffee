@@ -1,0 +1,42 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    color: #0B1D03;
+    font-size: 28px;
+    display: contents;
+    line-height: 20px;
+}
+
+.risco-alinhamento {
+    flex-direction: column;
+    display: flex;
+    font-size: 5px;
+    align-items: flex-start;
+}
+
+.risco-1 {
+    background: #1F1F1F;
+    justify-content: start;
+}
+
+.risco-2 {
+    background: #1F1F1F;
+    justify-content: start;
+}
+
+.risco-3{
+    background: #1F1F1F;
+    justify-content: start;
+}
+
+.lupa {
+    width: 42px;
+    display: inline-block;
+}
+
+.carrinho {
+    display: inline-block;
+}
