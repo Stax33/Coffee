@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -155,6 +159,7 @@
     top: 2150px;
     left: 115px;
     font-size: 24px;
+    width: 300px;
 }
 
 .image-4 {
@@ -170,6 +175,7 @@
     left: 170px;
     font-size: 32px;
     color: #0B1D03;
+    width: 100px;
 }
 
 .number-2 {
@@ -178,6 +184,7 @@
     left: 260px;
     font-size: 24px;
     color: #969696;
+    width: 100px;
 }
 
 .button-3 {
@@ -191,4 +198,276 @@
     height: 66px;
     width: 400px;
     color: white;
+}
+
+.center {
+    position: absolute;
+    left: 500px;
+    bottom: 789px;
+}
+
+.end {
+    position: absolute;
+    left: 1000px;
+    bottom: 789px;
+}
+
+.start-2 {
+    position: absolute;
+    left: 0px;
+    bottom: 200px;
+}
+
+.center-2 {
+    position: absolute;
+    left: 500px;
+    bottom: 200px;
+}
+
+.end-2 {
+    position: absolute;
+    left: 1000px;
+    bottom: 200px;
+}
+
+.localizacao {
+    position: absolute;
+    top: 3500px;
+    left: 90px;
+    display: flex;
+}
+
+.img-1 {
+    height: 40px;
+}
+
+.img-2 {
+    height: 40px;
+    padding-left: 228px;
+}
+
+.img-3 {
+    height: 40px;
+    padding-left: 228px;
+}
+
+.img-4 {
+    height: 40px;
+    padding-left: 228px;
+}
+
+.img-5 {
+    height: 40px;
+    padding-left: 228px;
+}
+
+.texto-tamanho {
+    font-size: 20px;
+}
+
+.texto-tamanho-2 {
+    font-size: 20px;
+    padding-left: 215px;
+}
+
+.texto-tamanho-3 {
+    font-size: 20px;
+    padding-left: 230px;
+    line-height: 3px;
+}
+
+.texto-tamanho-4 {
+    font-size: 20px;
+    padding-left: 180px;
+    line-height: 3px;
+}
+
+.texto-tamanho-5 {
+    font-size: 20px;
+    padding-left: 190px;
+    line-height: 3px;
+}
+
+.texto-tamanho-6 {
+    font-size: 20px;
+    padding-left: 210px;
+    line-height: 2px;
+}
+
+.texto-tamanho-7 {
+    font-size: 20px;
+    padding-left: 215px;
+    line-height: 0px;
+}
+
+.texto-tamanho-8 {
+    font-size: 20px;
+    padding-left: 196px;
+    line-height: 0px;
+}
+
+.img-6 {
+    position: absolute;
+    top: 3700px;
+    left: 70px;
+    height: 550px;
+}
+
+.text-10 {
+    position: absolute;
+    top: 4050px;
+    left: 110px;
+    font-size: 60px;
+    color: white;
+}
+
+.text-11 {
+    position: absolute;
+    top: 4160px;
+    left: 110px;
+    color: white;
+    font-size: 20px;
+}
+
+.img-7 {
+    position: absolute;
+    top: 3700px;
+    left: 820px;
+    height: 550px;
+}
+
+.text-12 {
+    position: absolute;
+    top: 4050px;
+    left: 860px;
+    font-size: 60px;
+    color: white;
+}
+
+.text-13 {
+    position: absolute;
+    top: 4160px;
+    left: 860px;
+    color: white;
+    font-size: 20px;
+}
+
+.text-14 {
+    position: absolute;
+    top: 4360px;
+    left: 65px;
+    font-size: 56px;
+    color: #0B1D03;
+}
+
+.select {
+    position: absolute;
+    top: 4560px;
+    left: 65px;
+    box-sizing: border-box;
+    border: 1px solid #0B1D03;
+    border-radius: 2px;
+    padding-right: 265px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    text-align: center;
+    color: #969696;
+}
+
+.search-box {
+    position: absolute;
+    top: 4560px;
+    left: 515px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-sizing: border-box;
+    border: 1px solid #0B1D03;
+    border-radius: 2px;
+}
+
+.search-txt {
+    height: 43px;
+    width: 930px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+}
+
+.search-btn {
+    padding-right: 20px;
+    padding-top: 3px;
+}
+
+.image-5 {
+    position: absolute;
+    top: 4630px;
+    height: 512px;
+    left: 65px;
+}
+
+.footer {
+    position: absolute;
+    top: 5230px;
+    left: 70px;
+    display: flex;
+    align-items: baseline;
+}
+
+.txt-1 {
+    color: #0B1D03;
+    height: 28px;
+}
+
+.grid-1 {
+    color: #1F1F1F;
+    height: 28px;
+    padding-left: 137px;
+    display: grid;
+}
+
+.grid-2 {
+    color: #1F1F1F;
+    height: 28px;
+    padding-left: 195px;
+    display: grid;
+}
+
+.grid-3 {
+    color: #1F1F1F;
+    height: 28px;
+    padding-left: 303px;
+}
+
+.links-a {
+    text-decoration: none;
+    color: #1F1F1F;
+    height: 28px;
+    font-size: 20px;
+}
+
+.position-a-1 {
+    padding-left: 39px;
+}
+
+.position-a-2 {
+    padding-left: 39px;
+}
+
+.text-end {
+    position: absolute;
+    top: 5500px;
+    padding-left: 640px;
+    font-size: 20px;
+    color: #1F1F1F;
+}
+
+.text-end-2 {
+    position: absolute;
+    top: 5475px;
+    padding-left: 785px;
+    font-size: 30px;
+    color: #1F1F1F;
 }
